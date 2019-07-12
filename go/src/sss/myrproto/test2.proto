@@ -1,0 +1,9 @@
+syntax = "proto3";
+package my_grpc_proto;
+
+message Test{
+    string name = 1;
+    int32 stature = 2;
+    repeated int64 weight = 3;
+    string motto = 4;
+}
